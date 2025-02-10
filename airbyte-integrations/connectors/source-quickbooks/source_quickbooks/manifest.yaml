@@ -3564,6 +3564,19 @@ schemas:
             type:
               - "null"
               - string
+      ClassRef:
+        type:
+          - "null"
+          - object
+        properties:
+          name:
+            type:
+              - "null"
+              - string
+          value:
+            type:
+              - "null"
+              - string
       CurrencyRef:
         type:
           - "null"
